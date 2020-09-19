@@ -58,11 +58,11 @@ namespace FIT5032_Week7
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+             ClientId = "84824938755-vr393ihacra5jng1mrb2u9jlfp17g7ct.apps.googleusercontent.com",
+             ClientSecret = "TQwJ76wu3ImlKxK-yzc2W_5W"
+            });
         }
     }
 }
